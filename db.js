@@ -9,7 +9,7 @@ const sequelize = new Sequelize(
 
 sequelize.authenticate().then(
     function(){
-        console.log('cosmoknotserver + pgDB = 4eva! lol')
+        console.log('Connected to cosmoknotserver')
     },
     function(err){
         console.log(err);
